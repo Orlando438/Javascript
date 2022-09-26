@@ -1,0 +1,32 @@
+#buttons {
+   width: 35%;
+   border-style: solid;
+   border-color: black;
+   border-radius: 10px;
+   margin-bottom: 10px;
+}
+
+textarea {
+ border-radius: 10px;
+ width: 535px;
+ height: 300px;
+ resize: none;
+}
+
+#negrito,#italico {
+ border-style: solid;
+ border-color: black;
+}
+
+#esquerda,#centro,#direita {
+border-style: solid;
+border-color: black;
+}
+
+#maiusculo, #minusculo, #mm {
+border-style: solid;
+border-color: black;
+}
+
+
+

@@ -1,0 +1,76 @@
+<DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Editor</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+ <!-- JavaScript Bundle with Popper -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+ <link rel='stylesheet' href='./style.css'>
+</head>
+
+
+<body>
+
+  <div class='container d-flex justify-content-center'>
+      <h1>Editor de Texto: Chapecó-SC</h1>
+  </div>
+
+
+    <div class='container d-flex justify-content-center' id='buttons'>
+      <div class='btn' id='fontes'>
+
+             <button class='btn' onclick='negrito()' id='negrito'>
+                 <i class='bi bi-type-bold'></i>
+             </button>
+
+             <button class='btn' onclick='italic()' id='italico'>
+                 <i class='bi bi-type-italic'></i>
+             </button> 
+
+    </div>
+   <div class='btn' class='alinhamentos'>
+
+             <button class='btn' onclick='esquerda()' id='esquerda'>
+                 <i class='bi bi-text-left'></i>
+             </button> 
+           
+             <button class='btn' onclick='centro()' id='centro'>
+                 <i class='bi bi-text-center'></i>
+             </button> 
+         
+             <button class='btn' onclick='direita()' id='direita'>
+                 <i class='bi bi-text-right'></i>
+             </button> 
+  </div>
+
+  <div class='btn' id='transform'>
+
+    <button class='btn' onclick='maiusculo()' id='maiusculo'>A</button> 
+
+     <button class='btn' onclick='minusculo()' id='minusculo'>a</button> 
+
+      <button class='btn' onclick='mm()' id='mm'>Aa</button> 
+  </div>
+
+
+<div id='limpar'>
+   <button class='btn' onclick='limpar()' id='limpar' > <i class='bi bi-eraser-fill'></i></button>
+</div>
+</div>
+
+
+<div class='container d-flex justify-content-center' id='campoDeTexto'>
+   <textarea id='texto' autofocus placeholder='Seu texto vai Aqui...'></textarea>
+</div>
+
+
+
+<script src='./functions.js'></script>
+</body>
+</html
