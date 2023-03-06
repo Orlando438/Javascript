@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        #reader2 {
+            width: 600px;
+        }
+
+        #result2 {
+            text-align: center;
+            font-size: 1.5rem;
+        }
+    </style>
+    <main id="menu">
+        <div id="reader2"></div>
+        <div id="result2"></div>
+        
+    </main>
+    <button onclick="mandar('reader2', 'result2')">mandar</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.3.4/html5-qrcode.min.js"
+        integrity="sha512-k/KAe4Yff9EUdYI5/IAHlwUswqeipP+Cp5qnrsUjTPCgl51La2/JhyyjNciztD7mWNKLSXci48m7cctATKfLlQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="index.js"></script>
+
+</body>
+
+</html>
